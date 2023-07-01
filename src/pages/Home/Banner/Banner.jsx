@@ -1,6 +1,8 @@
 import Typewriter from "typewriter-effect";
 import image from "../../../assets/image.png";
 import { IconContext } from "react-icons";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import {
   FaLinkedin,
   FaGithubSquare,
@@ -9,26 +11,51 @@ import {
 } from "react-icons/Fa";
 
 const Banner = () => {
+  AOS.init();
+
   return (
     <div className="flex justify-center items-center px-9">
       <div className="flex mx-auto">
         <div className="mt-24 md:mt-32 lg:mt-40 2xl:mt-48 w-full card rounded lg:card-side">
-          <figure>
+          <figure
+            data-aos="fade-down"
+            data-aos-duration="2500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+          >
             <img src={image} alt="Image" className="w-96 rounded" />
           </figure>
 
           <div className="card-body pl-0 lg:pl-16">
             <div className="flex my-auto">
               <div>
-                <h3 className="text-2xl xl:text-3xl font-bold">
+                <h3
+                  className="text-2xl xl:text-3xl font-bold"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                >
                   &lt; Hello World! &#47;&gt;
                 </h3>
 
-                <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold">
+                <h1
+                  className="text-3xl sm:text-4xl xl:text-5xl font-semibold"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                >
                   I&apos;m Sayon Usman
                 </h1>
 
-                <h3 className="text-xl sm:text-2xl xl:text-3xl font-semibold mt-1">
+                <h3
+                  className="text-xl sm:text-2xl xl:text-3xl font-semibold mt-1"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                >
                   <Typewriter
                     options={{
                       strings: ["Front-End Developer", "MERN Stack Developer"],
@@ -38,15 +65,33 @@ const Banner = () => {
                   />
                 </h3>
 
-                <p className="text-lg font-semibold">
+                <p
+                  className="text-sm sm:text-md xl:text-lg font-semibold"
+                  data-aos="fade-up"
+                  data-aos-duration="2300"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                >
                   Interested to Learn Something New.
                 </p>
 
-                <p className="text-xl font-semibold mt-2 lg:mt-3 mb-2">
+                <p
+                  className="text-xl font-semibold mt-2 lg:mt-3 mb-2"
+                  data-aos="fade-up"
+                  data-aos-duration="2400"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                >
                   Get in Touch
                 </p>
 
-                <div className="flex">
+                <div
+                  className="flex"
+                  data-aos="fade-up"
+                  data-aos-duration="2500"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                >
                   <a
                     target="_blank"
                     rel="noreferrer"
@@ -91,7 +136,13 @@ const Banner = () => {
                   </a>
                 </div>
 
-                <div className="mt-9 lg:mt-10">
+                <div
+                  className="mt-9 lg:mt-10"
+                  data-aos="fade-up"
+                  data-aos-duration="2500"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                >
                   <button className="btn rounded-md bg-black text-white hover:text-black">
                     Download Resume
                   </button>

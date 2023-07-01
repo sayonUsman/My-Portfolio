@@ -1,28 +1,55 @@
 import { HashLink as NavLink } from "react-router-hash-link";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const Navbar = () => {
   const navbarContent = (
     <>
       <li>
-        <NavLink to="#" className="mb-1 lg:mb-0 lg:mr-1 link link-hover">
+        <NavLink
+          to="#"
+          className="mb-1 lg:mb-0 lg:mr-1 link link-hover"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
           &lt;Home&#47;&gt;
         </NavLink>
       </li>
 
       <li>
-        <NavLink to="#about" className="mb-1 lg:mb-0 lg:mr-1 link link-hover">
+        <NavLink
+          to="#about"
+          className="mb-1 lg:mb-0 lg:mr-1 link link-hover"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out"
+        >
           &lt;About Me&#47;&gt;
         </NavLink>
       </li>
 
       <li>
-        <NavLink to="#skills" className="mb-1 lg:mb-0 lg:mr-1 link link-hover">
+        <NavLink
+          to="#skills"
+          className="mb-1 lg:mb-0 lg:mr-1 link link-hover"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out"
+        >
           &lt;Skills&#47;&gt;
         </NavLink>
       </li>
 
       <li>
-        <NavLink to="#projects" className="link link-hover">
+        <NavLink
+          to="#projects"
+          className="link link-hover"
+          data-aos="fade-left"
+          data-aos-duration="2500"
+          data-aos-easing="ease-in-out"
+        >
           &lt;Projects&#47;&gt;
         </NavLink>
       </li>
