@@ -14,7 +14,7 @@ const Banner = () => {
   AOS.init();
 
   return (
-    <div className="flex justify-center items-center px-9">
+    <div className="flex justify-center items-center px-7 sm:px-0">
       <div className="flex mx-auto">
         <div className="mt-24 md:mt-32 lg:mt-40 2xl:mt-48 w-full card rounded lg:card-side">
           <figure

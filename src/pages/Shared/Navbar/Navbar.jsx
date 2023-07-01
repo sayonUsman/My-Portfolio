@@ -9,6 +9,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="#"
+          smooth
           className="mb-1 lg:mb-0 lg:mr-1 link link-hover"
           data-aos="fade-left"
           data-aos-duration="1000"
@@ -21,6 +22,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="#about"
+          smooth
           className="mb-1 lg:mb-0 lg:mr-1 link link-hover"
           data-aos="fade-left"
           data-aos-duration="1500"
@@ -33,6 +35,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="#skills"
+          smooth
           className="mb-1 lg:mb-0 lg:mr-1 link link-hover"
           data-aos="fade-left"
           data-aos-duration="2000"
@@ -45,6 +48,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="#projects"
+          smooth
           className="link link-hover"
           data-aos="fade-left"
           data-aos-duration="2500"
