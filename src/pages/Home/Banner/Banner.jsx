@@ -68,13 +68,23 @@ const Banner = () => {
                     </IconContext.Provider>
                   </a>
 
-                  <a className="pl-4">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.facebook.com/sayon.usman.9"
+                    className="pl-4"
+                  >
                     <IconContext.Provider value={{ size: "37px" }}>
                       <FaFacebookSquare></FaFacebookSquare>
                     </IconContext.Provider>
                   </a>
 
-                  <a className="pl-4">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.instagram.com/sayonusman/"
+                    className="pl-4"
+                  >
                     <IconContext.Provider value={{ size: "37px" }}>
                       <FaInstagramSquare></FaInstagramSquare>
                     </IconContext.Provider>
