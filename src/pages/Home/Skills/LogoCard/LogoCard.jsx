@@ -1,7 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const SkillCard = ({ logo, title }) => {
+const LogoCard = ({ logo, title }) => {
   AOS.init();
 
   return (
@@ -31,4 +31,4 @@ const SkillCard = ({ logo, title }) => {
   );
 };
 
-export default SkillCard;
+export default LogoCard;
