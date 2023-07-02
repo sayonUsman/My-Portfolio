@@ -21,7 +21,9 @@ const About = () => {
         Django framework. Suddenly at the end of 2022 I had a bit of trouble and
         since then there was build a big gap between me and programming. Then
         what else!!! From January 2023, a new journey begins again with another
-        new programming language.
+        new programming language. Now I can develop beautiful, responsive and
+        dynamic websites with Javascript, React, Node.js, Express.js, MongoDB
+        and so on.
       </p>
     </div>
   );
