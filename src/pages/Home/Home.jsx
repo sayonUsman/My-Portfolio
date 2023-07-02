@@ -12,11 +12,13 @@ const Home = () => {
       <Banner></Banner>
 
       <div
+        id="about"
+        className="mt-16 sm:mt-20 md:mt-24 lg:mt-32 pl-7 sm:pl-9"
         data-aos="fade-right"
         data-aos-duration="1500"
         data-aos-easing="ease-in-out"
       >
-        <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold mt-16 sm:mt-20 md:mt-24 lg:mt-32 pl-7 sm:pl-9">
+        <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold">
           About Me
         </h1>
       </div>
@@ -24,11 +26,13 @@ const Home = () => {
       <About></About>
 
       <div
+        id="skills"
+        className="mt-10 md:mt-12 lg:mt-14 pl-7 sm:pl-9"
         data-aos="fade-right"
         data-aos-duration="1500"
         data-aos-easing="ease-in-out"
       >
-        <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold mt-10 md:mt-12 lg:mt-14 pl-7 sm:pl-9">
+        <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold">
           Skills
         </h1>
       </div>

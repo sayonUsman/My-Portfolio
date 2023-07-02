@@ -6,7 +6,6 @@ const About = () => {
 
   return (
     <div
-      id="about"
       data-aos="fade-up"
       data-aos-duration="2500"
       data-aos-easing="ease-in-out"
