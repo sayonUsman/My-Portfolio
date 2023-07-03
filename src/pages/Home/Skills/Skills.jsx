@@ -50,7 +50,7 @@ const Skills = () => {
         <LogoCard
           key={logos.indexOf(logo)}
           logo={logo}
-          title={"Expertised"}
+          title={"Expertise"}
         ></LogoCard>
       ))}
 
