@@ -143,9 +143,13 @@ const Banner = () => {
                   data-aos-easing="ease-in-out"
                   data-aos-mirror="true"
                 >
-                  <button className="btn rounded-md bg-black text-white hover:text-black">
+                  <a
+                    href="./sayon-resume.pdf"
+                    className="btn rounded-md bg-black text-white hover:text-black"
+                    download
+                  >
                     Download Resume
-                  </button>
+                  </a>
 
                   <button className="btn rounded-md bg-black text-white hover:text-black ml-2 sm:ml-5 lg:ml-9">
                     Hire Me
