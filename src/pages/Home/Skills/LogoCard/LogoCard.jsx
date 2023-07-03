@@ -5,9 +5,9 @@ const LogoCard = ({ logo, title }) => {
   AOS.init();
 
   return (
-    <div className="flex mx-auto mt-5">
+    <div className="flex mx-auto">
       <div
-        className="card card-compact w-40 h-40 sm:w-64 sm:h-64 bg-white border border-black mb-5"
+        className="card card-compact w-40 h-40 sm:w-64 sm:h-64 bg-white border border-black mx-2 sm:mx-0 my-4 sm:my-5"
         data-aos="zoom-in-down"
         data-aos-duration="2000"
         data-aos-easing="ease-in-out"
