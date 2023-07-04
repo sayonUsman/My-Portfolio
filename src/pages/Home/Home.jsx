@@ -1,5 +1,5 @@
 import Banner from "./Banner/Banner";
-import About from "./About/About";
+import About from "./about/About";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Skills from "./Skills/Skills";

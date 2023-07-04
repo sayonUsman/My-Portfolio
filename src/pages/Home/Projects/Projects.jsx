@@ -19,7 +19,7 @@ const projects = [
     client: "https://github.com/sayonUsman/Disney-Empire",
     server: "https://github.com/sayonUsman/Disney-Empire-Server",
     live: "https://disney-empire.web.app/",
-    tt: "React, Tailwind CSS, DaisyUI, Express.js, MongoDB, Firebase, Git",
+    tt: "React, Tailwind CSS, DaisyUI, Express.js, MongoDB, Firebase, Git.",
   },
 
   {

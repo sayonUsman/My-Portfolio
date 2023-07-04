@@ -21,7 +21,7 @@ const About = () => {
         since then there was build a big gap between me and programming. Then
         what else!!! From January 2023, a new journey begins again with another
         new programming language. Now I can develop beautiful, responsive and
-        dynamic websites with Javascript, React, Node.js, Express.js, MongoDB
+        dynamic websites with JavaScript, React, Node.js, Express.js, MongoDB
         and so on.
       </p>
     </div>
