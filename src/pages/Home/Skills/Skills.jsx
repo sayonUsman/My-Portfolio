@@ -19,6 +19,7 @@ import api from "../../../assets/logo/rest-api.png";
 import tailwind from "../../../assets/logo/tailwind-css.svg";
 import vercel from "../../../assets/logo/vercel.svg";
 import LogoCard from "./LogoCard/LogoCard";
+import Marquee from "react-fast-marquee";
 
 const logos = [
   react,
@@ -45,30 +46,12 @@ const logos = [
 
 const Skills = () => {
   return (
-    <div className="flex flex-wrap sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-3 md:mt-5 md:px-16">
-      {logos.slice(0, 8).map((logo) => (
-        <LogoCard
-          key={logos.indexOf(logo)}
-          logo={logo}
-          title={"Expertise"}
-        ></LogoCard>
-      ))}
-
-      {logos.slice(8, 16).map((logo) => (
-        <LogoCard
-          key={logos.indexOf(logo)}
-          logo={logo}
-          title={"Comfortable"}
-        ></LogoCard>
-      ))}
-
-      {logos.slice(16).map((logo) => (
-        <LogoCard
-          key={logos.indexOf(logo)}
-          logo={logo}
-          title={"Familiar"}
-        ></LogoCard>
-      ))}
+    <div className="mt-3 md:mt-5 px-9 sm:px-12 lg:px-16">
+      <Marquee pauseOnHover>
+        {logos.map((logo) => (
+          <LogoCard key={logos.indexOf(logo)} logo={logo}></LogoCard>
+        ))}
+      </Marquee>
     </div>
   );
 };
