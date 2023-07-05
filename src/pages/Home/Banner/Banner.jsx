@@ -158,26 +158,30 @@ const Banner = () => {
                 </div>
 
                 <div
-                  className="mt-9 lg:mt-10"
+                  className="flex mt-9 lg:mt-10"
                   data-aos="fade-up"
                   data-aos-duration="2500"
                   data-aos-easing="ease-in-out"
                   data-aos-mirror="true"
                 >
-                  <a
-                    href="./sayon-resume.pdf"
-                    className="btn rounded-md bg-black text-white hover:text-black"
-                    download
-                  >
-                    Download Resume
-                  </a>
+                  <motion.div whileTap={{ scale: 0.8 }}>
+                    <a
+                      href="./sayon-resume.pdf"
+                      className="btn bg-white hover:bg-white rounded-md shadow-md shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400"
+                      download
+                    >
+                      Download Resume
+                    </a>
+                  </motion.div>
 
-                  <a
-                    href="#contact"
-                    className="btn rounded-md bg-black text-white hover:text-black ml-2 sm:ml-5 lg:ml-9"
-                  >
-                    Hire Me
-                  </a>
+                  <motion.div whileTap={{ scale: 0.8 }}>
+                    <a
+                      href="#contact"
+                      className="btn bg-white hover:bg-white rounded-md shadow-md shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400 ml-2 sm:ml-5 lg:ml-9"
+                    >
+                      Hire Me
+                    </a>
+                  </motion.div>
                 </div>
               </div>
             </div>
