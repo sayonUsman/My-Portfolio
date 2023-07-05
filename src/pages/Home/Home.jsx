@@ -33,7 +33,7 @@ const Home = () => {
       <Projects></Projects>
       <SectionTitle
         id={"contact"}
-        title={"Feel free to reach out to me anytime!"}
+        title={"Feel free to reach out"}
       ></SectionTitle>
       <Contact></Contact>
     </>
