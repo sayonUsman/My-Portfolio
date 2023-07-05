@@ -46,7 +46,7 @@ const logos = [
 
 const Skills = () => {
   return (
-    <div className="mt-3 md:mt-5 hover:md:mb-7 px-9 sm:px-12 lg:px-16">
+    <div className="mt-3 md:mt-5 px-9 sm:px-12 lg:px-16">
       <Marquee pauseOnHover>
         {logos.map((logo) => (
           <LogoCard key={logos.indexOf(logo)} logo={logo}></LogoCard>
