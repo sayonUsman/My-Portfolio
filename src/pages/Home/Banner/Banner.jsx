@@ -2,6 +2,7 @@ import Typewriter from "typewriter-effect";
 import image from "../../../assets/image.png";
 import { IconContext } from "react-icons";
 import AOS from "aos";
+import { motion } from "framer-motion";
 import "aos/dist/aos.css";
 import {
   FaLinkedin,
@@ -97,9 +98,14 @@ const Banner = () => {
                     rel="noreferrer"
                     href="https://www.linkedin.com/in/sayon-usman-7526821b2/"
                   >
-                    <IconContext.Provider value={{ size: "37px" }}>
-                      <FaLinkedin></FaLinkedin>
-                    </IconContext.Provider>
+                    <motion.div
+                      whileHover={{ scale: 1.2 }}
+                      whileTap={{ scale: 0.8 }}
+                    >
+                      <IconContext.Provider value={{ size: "37px" }}>
+                        <FaLinkedin></FaLinkedin>
+                      </IconContext.Provider>
+                    </motion.div>
                   </a>
 
                   <a
@@ -108,9 +114,14 @@ const Banner = () => {
                     href="https://github.com/sayonUsman/"
                     className="pl-4"
                   >
-                    <IconContext.Provider value={{ size: "37px" }}>
-                      <FaGithubSquare></FaGithubSquare>
-                    </IconContext.Provider>
+                    <motion.div
+                      whileHover={{ scale: 1.2 }}
+                      whileTap={{ scale: 0.8 }}
+                    >
+                      <IconContext.Provider value={{ size: "37px" }}>
+                        <FaGithubSquare></FaGithubSquare>
+                      </IconContext.Provider>
+                    </motion.div>
                   </a>
 
                   <a
@@ -119,9 +130,14 @@ const Banner = () => {
                     href="https://www.facebook.com/sayon.usman.9"
                     className="pl-4"
                   >
-                    <IconContext.Provider value={{ size: "37px" }}>
-                      <FaFacebookSquare></FaFacebookSquare>
-                    </IconContext.Provider>
+                    <motion.div
+                      whileHover={{ scale: 1.2 }}
+                      whileTap={{ scale: 0.8 }}
+                    >
+                      <IconContext.Provider value={{ size: "37px" }}>
+                        <FaFacebookSquare></FaFacebookSquare>
+                      </IconContext.Provider>
+                    </motion.div>
                   </a>
 
                   <a
@@ -130,9 +146,14 @@ const Banner = () => {
                     href="https://www.instagram.com/sayonusman/"
                     className="pl-4"
                   >
-                    <IconContext.Provider value={{ size: "37px" }}>
-                      <FaInstagramSquare></FaInstagramSquare>
-                    </IconContext.Provider>
+                    <motion.div
+                      whileHover={{ scale: 1.2 }}
+                      whileTap={{ scale: 0.8 }}
+                    >
+                      <IconContext.Provider value={{ size: "37px" }}>
+                        <FaInstagramSquare></FaInstagramSquare>
+                      </IconContext.Provider>
+                    </motion.div>
                   </a>
                 </div>
 
@@ -151,9 +172,12 @@ const Banner = () => {
                     Download Resume
                   </a>
 
-                  <button className="btn rounded-md bg-black text-white hover:text-black ml-2 sm:ml-5 lg:ml-9">
+                  <a
+                    href="#contact"
+                    className="btn rounded-md bg-black text-white hover:text-black ml-2 sm:ml-5 lg:ml-9"
+                  >
                     Hire Me
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

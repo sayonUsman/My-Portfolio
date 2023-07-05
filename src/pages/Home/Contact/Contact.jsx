@@ -16,7 +16,7 @@ const Contact = () => {
   AOS.init();
 
   return (
-    <div className="flex mt-3 md:mt-7 mb-24">
+    <div className="flex mt-3 md:mt-7 mb-16 sm:mb-20 md:mb-24">
       <div className="flex flex-col md:flex-row mx-auto">
         <div className="flex my-auto md:w-1/2">
           <div>
