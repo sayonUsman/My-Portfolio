@@ -4,6 +4,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
+import SectionTitle from "../../components/SectionTitle/SectionTitle";
+import Contact from "./Contact/Contact";
 
 const Home = () => {
   AOS.init();
@@ -25,34 +27,15 @@ const Home = () => {
       </div>
 
       <About></About>
-
-      <div
-        id="skills"
-        className="mt-10 md:mt-12 lg:mt-14 pl-7 sm:pl-9"
-        data-aos="fade-right"
-        data-aos-duration="1500"
-        data-aos-easing="ease-in-out"
-      >
-        <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold">
-          Field of My Skills
-        </h1>
-      </div>
-
+      <SectionTitle id={"skills"} title={"Field of My Skills"}></SectionTitle>
       <Skills></Skills>
-
-      <div
-        id="projects"
-        className="mt-10 md:mt-12 lg:mt-14 pl-7 sm:pl-9"
-        data-aos="fade-right"
-        data-aos-duration="1500"
-        data-aos-easing="ease-in-out"
-      >
-        <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold">
-          Projects
-        </h1>
-      </div>
-
+      <SectionTitle id={"projects"} title={"Projects"}></SectionTitle>
       <Projects></Projects>
+      <SectionTitle
+        id={"contact"}
+        title={"Feel free to reach out to me anytime!"}
+      ></SectionTitle>
+      <Contact></Contact>
     </>
   );
 };
