@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         belano: ["Belanosima"],
+        rale: ["Raleway"],
       },
     },
   },

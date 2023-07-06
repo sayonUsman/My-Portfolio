@@ -7,7 +7,7 @@ const MessageCard = () => {
   return (
     <div className="sm:w-96 lg:ml-7">
       <h3
-        className="text-2xl font-semibold mt-12 md:mt-0"
+        className="text-2xl font-belano font-semibold mt-12 md:mt-0"
         data-aos="fade-up"
         data-aos-duration="1500"
         data-aos-easing="ease-in-out"
@@ -44,7 +44,7 @@ const MessageCard = () => {
           <div className="flex mt-7">
             <div className="flex mx-auto">
               <motion.div whileTap={{ scale: 0.8 }}>
-                <button className="h-10 w-36 rounded-md shadow-md shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400">
+                <button className="h-10 w-36 rounded-md shadow-md font-belano shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400">
                   SENT
                 </button>
               </motion.div>

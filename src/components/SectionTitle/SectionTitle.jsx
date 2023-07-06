@@ -7,7 +7,7 @@ const SectionTitle = ({ id, title }) => {
       data-aos-duration="1500"
       data-aos-easing="ease-in-out"
     >
-      <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold">
+      <h1 className="text-3xl sm:text-4xl xl:text-5xl font-belano font-semibold">
         {title}
       </h1>
     </div>

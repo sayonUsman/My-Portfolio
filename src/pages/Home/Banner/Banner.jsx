@@ -29,7 +29,7 @@ const Banner = () => {
 
           <div className="card-body pl-0 lg:pl-16">
             <div className="flex my-auto">
-              <div>
+              <div className="font-belano">
                 <h3
                   className="text-2xl xl:text-3xl font-bold"
                   data-aos="fade-up"
@@ -167,7 +167,7 @@ const Banner = () => {
                   <motion.div whileTap={{ scale: 0.8 }}>
                     <a
                       href="./sayon-resume.pdf"
-                      className="btn bg-white hover:bg-white rounded-md shadow-md shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400"
+                      className="btn bg-white hover:bg-white rounded-md shadow-md shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400 font-belano"
                       download
                     >
                       Download Resume
@@ -177,7 +177,7 @@ const Banner = () => {
                   <motion.div whileTap={{ scale: 0.8 }}>
                     <a
                       href="#contact"
-                      className="btn bg-white hover:bg-white rounded-md shadow-md shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400 ml-2 sm:ml-5 lg:ml-9"
+                      className="btn bg-white hover:bg-white rounded-md shadow-md shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400 ml-2 sm:ml-5 lg:ml-9 font-belano"
                     >
                       Hire Me
                     </a>

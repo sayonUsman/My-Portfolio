@@ -10,7 +10,7 @@ const Navbar = () => {
         <NavLink
           to="#"
           smooth
-          className="mb-1 lg:mb-0 lg:mr-1 link link-hover"
+          className="mb-1 lg:mb-0 lg:mr-1 link link-hover font-belano"
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
@@ -23,7 +23,7 @@ const Navbar = () => {
         <NavLink
           to="#about"
           smooth
-          className="mb-1 lg:mb-0 lg:mr-1 link link-hover"
+          className="mb-1 lg:mb-0 lg:mr-1 link link-hover font-belano"
           data-aos="fade-left"
           data-aos-duration="1500"
           data-aos-easing="ease-in-out"
@@ -36,7 +36,7 @@ const Navbar = () => {
         <NavLink
           to="#skills"
           smooth
-          className="mb-1 lg:mb-0 lg:mr-1 link link-hover"
+          className="mb-1 lg:mb-0 lg:mr-1 link link-hover font-belano"
           data-aos="fade-left"
           data-aos-duration="2000"
           data-aos-easing="ease-in-out"
@@ -49,7 +49,7 @@ const Navbar = () => {
         <NavLink
           to="#projects"
           smooth
-          className="link link-hover"
+          className="link link-hover font-belano"
           data-aos="fade-left"
           data-aos-duration="2500"
           data-aos-easing="ease-in-out"
@@ -89,7 +89,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <a className="btn btn-ghost normal-case text-xl">
+        <a className="btn btn-ghost normal-case text-xl font-belano">
           &lt;Sayon Usman&#47;&gt;
         </a>
       </div>

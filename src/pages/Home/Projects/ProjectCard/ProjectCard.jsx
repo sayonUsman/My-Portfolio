@@ -20,7 +20,7 @@ const ProjectCard = ({ project }) => {
                 <img src={project.demo} alt="Project Demo" />
               </figure>
 
-              <div className="card-body p-0">
+              <div className="card-body font-belano p-0">
                 <h2 className="card-title pl-3 pt-5">{project.name}</h2>
                 <h2 className="text-lg font-semibold pl-3 pt-3">
                   Technology & Tools:
