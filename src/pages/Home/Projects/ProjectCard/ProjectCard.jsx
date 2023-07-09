@@ -1,6 +1,5 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { motion } from "framer-motion";
 
 const ProjectCard = ({ project }) => {
   AOS.init();
@@ -9,40 +8,52 @@ const ProjectCard = ({ project }) => {
     <div className="flex mx-auto">
       <div className="my-5">
         <div className="flex justify-center items-center">
-          <motion.div whileHover={{ scale: 1.1 }}>
-            <div
-              className="card rounded-md w-72 md:w-[335px] lg:w-96 h-[425px] lg:h-[475px] bg-white shadow-md shadow-zinc-900  hover:shadow-orange-400"
-              data-aos="flip-right"
-              data-aos-duration="2500"
-              data-aos-easing="ease-in-out"
-            >
-              <figure>
-                <img src={project.demo} alt="Project Demo" />
-              </figure>
+          <div
+            className="card rounded-md w-72 md:w-[335px] lg:w-96 bg-white shadow-md shadow-zinc-900 hover:shadow-orange-400"
+            data-aos="flip-right"
+            data-aos-duration="2500"
+            data-aos-easing="ease-in-out"
+          >
+            <figure>
+              <img src={project.demo} alt="Project Demo" />
+            </figure>
 
-              <div className="card-body font-belano p-0">
-                <h2 className="card-title pl-3 pt-5">{project.name}</h2>
-                <h2 className="text-lg font-semibold pl-3 pt-3">
-                  Technology & Tools:
-                </h2>
-                <p className="pl-3">{project.tt}</p>
+            <div className="card-body font-belano p-0 pl-5 md:pl-7 lg:pl-9">
+              <h2 className="card-title">{project.name}</h2>
+              <h2 className="text-lg font-semibold">Technology & Tools:</h2>
 
-                <div className="card-actions justify-center text-primary pb-3">
-                  <a href={project.client} className="link link-hover">
-                    Client
-                  </a>
+              <span>
+                <p>{project.tt}</p>
 
-                  <a href={project.server} className="link link-hover px-4">
-                    Server
-                  </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={project.client}
+                  className="text-primary link link-hover"
+                >
+                  Client
+                </a>
 
-                  <a href={project.live} className="link link-hover">
-                    Live Link
-                  </a>
-                </div>
-              </div>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={project.server}
+                  className="text-primary link link-hover px-4"
+                >
+                  Server
+                </a>
+
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={project.live}
+                  className="inline-block text-primary link link-hover pt-5 pb-3"
+                >
+                  Live Link
+                </a>
+              </span>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </div>
