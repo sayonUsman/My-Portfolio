@@ -167,7 +167,7 @@ const Banner = () => {
                   <motion.div whileTap={{ scale: 0.8 }}>
                     <a
                       href="./sayon-resume.pdf"
-                      className="btn bg-white hover:bg-white rounded-md shadow-md shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400 border-none"
+                      className="btn text-black bg-white hover:bg-white rounded-md shadow-md shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400 border-none"
                       download
                     >
                       Download Resume
@@ -176,10 +176,10 @@ const Banner = () => {
 
                   <motion.div whileTap={{ scale: 0.8 }}>
                     <a
-                      href="#contact"
-                      className="btn bg-white hover:bg-white rounded-md shadow-md shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400 ml-2 sm:ml-5 lg:ml-9 border-none"
+                      href="mailto:sayonusman.ma@gmail.com"
+                      className="btn text-black bg-white hover:bg-white rounded-md shadow-md shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400 ml-2 sm:ml-5 lg:ml-9 border-none"
                     >
-                      Hire Me
+                      Contact Me
                     </a>
                   </motion.div>
                 </div>
