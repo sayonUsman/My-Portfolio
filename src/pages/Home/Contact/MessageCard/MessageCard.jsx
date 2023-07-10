@@ -27,18 +27,18 @@ const MessageCard = () => {
           <input
             type="text"
             placeholder="Name"
-            className="input input-md mb-5"
+            className="bg-white input input-md mb-5"
           />
 
           <input
             type="email"
             placeholder="Email"
-            className="input input-md mb-7"
+            className="bg-white input input-md mb-7"
           />
 
           <textarea
             placeholder="Message"
-            className="textarea textarea-lg"
+            className="bg-white textarea textarea-lg"
           ></textarea>
 
           <div className="flex mt-7">
