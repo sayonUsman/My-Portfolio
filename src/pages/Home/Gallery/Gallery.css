@@ -1,0 +1,30 @@
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (min-width: 640px) {
+  .swiper-slide {
+    width: 325px;
+    height: 232px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper-slide {
+    width: 625px;
+    height: 445px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .swiper-slide {
+    width: 725px;
+    height: 515px;
+  }
+}

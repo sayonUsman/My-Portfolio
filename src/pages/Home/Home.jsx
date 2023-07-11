@@ -6,6 +6,7 @@ import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import Contact from "./Contact/Contact";
+import Gallery from "./Gallery/Gallery";
 
 const Home = () => {
   AOS.init();
@@ -31,6 +32,8 @@ const Home = () => {
       <Skills></Skills>
       <SectionTitle id={"projects"} title={"Projects"}></SectionTitle>
       <Projects></Projects>
+      <SectionTitle id={"gallery-section"} title={"My Gallery"}></SectionTitle>
+      <Gallery></Gallery>
       <SectionTitle
         id={"contact"}
         title={"Feel free to reach out"}
