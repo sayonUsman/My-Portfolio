@@ -9,12 +9,21 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 import "./Gallery.css";
+import AOS from "aos";
 
 const photos = [ca, ftc, ftc2, git, python];
 
 const Gallery = () => {
+  AOS.init();
+
   return (
-    <div className="mt-4 sm:mt-5 md:mt-6 lg:mt-8 px-9 sm:px-12 lg:px-16">
+    <div
+      className="mt-4 sm:mt-5 md:mt-6 lg:mt-8 mx-9 sm:mx-12 lg:mx-16 shadow-lg shadow-zinc-700"
+      data-aos="fade-left"
+      data-aos-duration="2500"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+    >
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
