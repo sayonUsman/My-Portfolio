@@ -19,7 +19,7 @@ const Gallery = () => {
   return (
     <div
       className="mt-4 sm:mt-5 md:mt-6 lg:mt-8 mx-9 sm:mx-12 lg:mx-16 bg-gray-100 shadow-lg shadow-zinc-700 dark:shadow-md dark:shadow-[#14940c]"
-      data-aos="fade-left"
+      data-aos="zoom-in"
       data-aos-duration="2500"
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
