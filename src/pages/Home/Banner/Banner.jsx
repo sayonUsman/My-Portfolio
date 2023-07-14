@@ -167,7 +167,7 @@ const Banner = () => {
                   <motion.div whileTap={{ scale: 0.8 }}>
                     <a
                       href="./sayon-resume.pdf"
-                      className="btn text-black bg-white hover:bg-white rounded-md shadow-md shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400 border-none"
+                      className="btn text-black bg-white hover:bg-white rounded-md shadow-md shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400 dark:text-[#14940c] dark:hover:text-[#bd8e42] dark:bg-[#0A0A0A] dark:hover:bg-[#0A0A0A] dark:shadow-[#14940c] dark:hover:shadow-[#bd8e42] border-none"
                       download
                     >
                       Download Resume
@@ -177,7 +177,7 @@ const Banner = () => {
                   <motion.div whileTap={{ scale: 0.8 }}>
                     <a
                       href="mailto:sayonusman.ma@gmail.com"
-                      className="btn text-black bg-white hover:bg-white rounded-md shadow-md shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400 ml-2 sm:ml-5 lg:ml-9 border-none"
+                      className="btn text-black bg-white hover:bg-white rounded-md shadow-md shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400 dark:text-[#14940c] dark:hover:text-[#bd8e42] dark:bg-[#0A0A0A] dark:hover:bg-[#0A0A0A] dark:shadow-[#14940c] dark:hover:shadow-[#bd8e42] ml-2 sm:ml-5 lg:ml-9 border-none"
                     >
                       Contact Me
                     </a>
