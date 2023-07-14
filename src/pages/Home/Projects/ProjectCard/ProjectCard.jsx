@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
       <div className="my-5">
         <div className="flex justify-center items-center">
           <div
-            className="card rounded-md w-72 md:w-[335px] lg:w-96 bg-white shadow-md shadow-zinc-900 hover:shadow-orange-400 dark:text-black dark:shadow-[#14940c] dark:hover:shadow-[#bd8e42]"
+            className="card rounded-md w-72 md:w-[335px] lg:w-96 bg-white text-black shadow-md shadow-zinc-900 hover:shadow-orange-400 dark:shadow-[#14940c] dark:hover:shadow-[#bd8e42]"
             data-aos="flip-right"
             data-aos-duration="2500"
             data-aos-easing="ease-in-out"
