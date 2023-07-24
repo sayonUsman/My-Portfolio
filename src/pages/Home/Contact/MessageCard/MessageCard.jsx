@@ -44,9 +44,14 @@ const MessageCard = () => {
           <div className="flex mt-7">
             <div className="flex mx-auto">
               <motion.div whileTap={{ scale: 0.8 }}>
-                <button className="h-10 w-36 rounded-md shadow-md font-belano shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400 dark:shadow-[#14940c] dark:hover:text-[#bd8e42] dark:hover:shadow-[#bd8e42]">
-                  SENT
-                </button>
+                <div
+                  className="tooltip"
+                  data-tip="This feature is coming soon."
+                >
+                  <button className="h-10 w-36 rounded-md shadow-md font-belano shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400 dark:shadow-[#14940c] dark:hover:text-[#bd8e42] dark:hover:shadow-[#bd8e42]">
+                    SENT
+                  </button>
+                </div>
               </motion.div>
             </div>
           </div>
