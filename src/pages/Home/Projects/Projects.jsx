@@ -10,7 +10,7 @@ const projects = [
     client: "https://github.com/sayonUsman/house-hunter",
     server: "https://github.com/sayonUsman/house-hunter-Server",
     live: "https://house-hunter-89d95.web.app/",
-    tt: "React, Tailwind CSS, DaisyUI, Express.js, MongoDB, Firebase, Git.",
+    tt: "React, Tailwind CSS, DaisyUI, Express.js, Mongoose, Git, JWT.",
   },
 
   {
@@ -19,7 +19,7 @@ const projects = [
     client: "https://github.com/sayonUsman/Fun-with-Art-Craft",
     server: "https://github.com/sayonUsman/Fun-with-Art-Craft-Server",
     live: "https://fun-with-art-craft.web.app/",
-    tt: "React, Tailwind CSS, DaisyUI, Express.js, MongoDB, Firebase, Git, Stripe.",
+    tt: "React, Tailwind CSS, DaisyUI, Express.js, MongoDB, Firebase, Stripe, Git, JWT.",
   },
 
   {
@@ -28,7 +28,7 @@ const projects = [
     client: "https://github.com/sayonUsman/Bistro-Boss-Restaurant",
     server: "https://github.com/sayonUsman/Bistro-Boss-Restaurant-Server",
     live: "https://bistro-boss-restaurant-2cd47.web.app/",
-    tt: "React, Tailwind CSS, DaisyUI, Express.js, MongoDB, Firebase, Git, Stripe.",
+    tt: "React, Tailwind CSS, DaisyUI, Express.js, MongoDB, Firebase, Stripe, Git, JWT.",
   },
 ];
 
