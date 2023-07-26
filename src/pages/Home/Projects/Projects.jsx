@@ -1,9 +1,18 @@
 import art from "../../../assets/projects/art-craft.png";
 import bistro from "../../../assets/projects/bistro-boss.png";
-import disney from "../../../assets/projects/disney-empire.png";
+import hunter from "../../../assets/projects/house-hunter.png";
 import ProjectCard from "./ProjectCard/ProjectCard";
 
 const projects = [
+  {
+    name: "House Hunter",
+    demo: hunter,
+    client: "https://github.com/sayonUsman/house-hunter",
+    server: "https://github.com/sayonUsman/house-hunter-Server",
+    live: "https://house-hunter-89d95.web.app/",
+    tt: "React, Tailwind CSS, DaisyUI, Express.js, MongoDB, Firebase, Git.",
+  },
+
   {
     name: "Fun with Art & Craft",
     demo: art,
@@ -11,15 +20,6 @@ const projects = [
     server: "https://github.com/sayonUsman/Fun-with-Art-Craft-Server",
     live: "https://fun-with-art-craft.web.app/",
     tt: "React, Tailwind CSS, DaisyUI, Express.js, MongoDB, Firebase, Git, Stripe.",
-  },
-
-  {
-    name: "Disney Empire",
-    demo: disney,
-    client: "https://github.com/sayonUsman/Disney-Empire",
-    server: "https://github.com/sayonUsman/Disney-Empire-Server",
-    live: "https://disney-empire.web.app/",
-    tt: "React, Tailwind CSS, DaisyUI, Express.js, MongoDB, Firebase, Git.",
   },
 
   {

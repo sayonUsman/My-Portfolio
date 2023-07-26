@@ -30,7 +30,7 @@ const Home = () => {
       <About></About>
       <SectionTitle id={"skills"} title={"Field of My Skills"}></SectionTitle>
       <Skills></Skills>
-      <SectionTitle id={"projects"} title={"Projects"}></SectionTitle>
+      <SectionTitle id={"projects"} title={"Best Projects"}></SectionTitle>
       <Projects></Projects>
       <SectionTitle id={"gallery-section"} title={"My Gallery"}></SectionTitle>
       <Gallery></Gallery>
