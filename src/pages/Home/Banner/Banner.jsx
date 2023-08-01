@@ -166,7 +166,9 @@ const Banner = () => {
                 >
                   <motion.div whileTap={{ scale: 0.8 }}>
                     <a
-                      href="./sayon-resume.pdf"
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://drive.google.com/file/d/1JCCNjBAKeepPP_x1LEwb-0NtJ5G6EdRD/view?usp=sharing"
                       className="btn text-black bg-white hover:bg-white rounded-md shadow-md shadow-zinc-900 hover:text-orange-500 hover:shadow-orange-400 dark:text-[#14940c] dark:hover:text-[#bd8e42] dark:bg-[#0A0A0A] dark:hover:bg-[#0A0A0A] dark:shadow-[#14940c] dark:hover:shadow-[#bd8e42] border-none"
                       download
                     >
