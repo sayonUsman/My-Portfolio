@@ -69,7 +69,7 @@ const Contact = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/sayon-usman-7526821b2/"
+                href="https://www.linkedin.com/in/sayon-usman/"
               >
                 <motion.div
                   whileHover={{ scale: 1.2 }}
